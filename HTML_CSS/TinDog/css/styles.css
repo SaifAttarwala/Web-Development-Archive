@@ -1,0 +1,221 @@
+/* HEAD-TOP AND FRONT PAGE SECTION*/
+
+h1 {
+    font-family: "Montserrat", "Sans-serif";
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.logoTindog {
+    font-family: "Ubuntu", "sans-serif";
+    font-size: 2.5rem;
+
+}
+
+.container-fluid {
+    padding: 3% 15% 7% 15%;
+}
+
+.btn {
+    font-weight: bold;
+}
+
+/* NAVIGATION BAR */
+.navbar {
+    padding: 0 0 4.5rem 0;
+}
+
+.nav-link {
+    margin: 0 18px 0 18px;
+    font-family: "Montserrat";
+    color: #fff;
+}
+
+/* Download Buttons */
+.downloadButtonTop {
+    margin: 5% 3% 0 3%;
+}
+
+.downloadButtonBottom {
+    margin: 5% 2% 3% 2%;
+}
+
+/* title images */
+.iphone6Image {
+    transform: rotate(25deg);
+    width: 20%;
+    position: absolute;
+    right: 30%;
+}
+
+/* FEATURES SECTION */
+#features {
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.featuresHeading {
+    font-size: 1.5rem;
+    font-family: "Montserrat";
+    font-weight: 550;
+    margin-top: 20px;
+}
+
+.featureInfo {
+    color: #8f8f8f;
+    padding: 5%;
+}
+
+.hoverIcon {
+    color: #ef8172;
+}
+
+.hoverIcon:hover {
+    color: #ff4c68;
+}
+
+.featuresMargin {
+    margin: 90px 0 90px 0;
+    padding: 0;
+}
+
+/* TESTIMONIALS SECTION */
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+}
+
+.testimonials {
+    padding: 7% 15% 7% 15%;
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.dogPicTestimonial {
+    width: 10%;
+    border-radius: 100%;
+    margin: 3%;
+}
+
+.whiteColouredText {
+    color: #fff;
+}
+
+.boldText {
+    font-weight: 600;
+}
+
+/* PRESS TESTIMONIALS */
+#press {
+    text-align: center;
+    background-color: #ef8172;
+}
+
+.pressCompanyLogo {
+    width: 15%;
+    margin: 15px 20px 50px 20px;
+}
+
+/* PRICING */
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricingCardPadding {
+    padding: 3% 2%;
+}
+
+.pricingHeader2 {
+    color: black;
+}
+
+/* CALL TO ACTION */
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15% 7% 15%;
+    line-height: 2;
+}
+
+.callToActionH3 {
+    font-family: "Montserrat";
+    font-weight: 600;
+    color: #fff;
+    font-size: 3rem;
+}
+
+/* FOOTER */
+#footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 5% 6% 5% 6%;
+}
+
+.copyrightTindog {
+    opacity: 0.5;
+}
+
+.socialMediaIcon {
+    margin: 0% 3% 0% 3%;
+}
+
+.socialMediaTwitterIcon {
+    color: #1DA1F2;
+}
+
+.socialMediaTwitterIcon:hover {
+    color: blue;
+}
+
+.socialMediaFacebookIcon {
+    color: #43609C;
+}
+
+.socialMediaFacebookIcon:hover {
+    color: blue;
+}
+
+.socialMediaInstagramIcon {
+    color: #DD2A7B;
+}
+
+.socialMediaInstagramIcon:hover {
+    color: blue;
+}
+
+.socialMediaEnvelopeIcon {
+    color: gray;
+}
+
+.socialMediaEnvelopeIcon:hover {
+    color: blue;
+}
+
+/* MEDIA  */
+@media (max-width:1150px) {
+    .iphone6Image {
+        transform: rotate(0deg);
+        position: static;
+        width: 60%;
+        margin-top: 2rem;
+    }
+
+    #title {
+        text-align: center;
+    }
+}
