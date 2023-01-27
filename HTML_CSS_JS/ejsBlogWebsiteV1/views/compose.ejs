@@ -1,0 +1,22 @@
+<%- include("partials/header") %>
+
+<h1>Publish Note</h1><br><br>
+
+<form action="/compose" method="post">
+    <div class="form-group">
+        <label>Title:<br>
+            <input class="form-control" type="text" name="blogPostTitle" id="blogPostTitleID"
+                placeholder="Type journal title here" autocomplete="off">
+        </label>
+        <br>
+        <label>Content:<br>
+            <textarea class="form-control" name="blogPostContent" id="blogPostContentID" cols="80" rows="8"
+                placeholder="Type journal notes here"></textarea>
+        </label>
+        <br>
+        <button class="btn btn-primary btn-md" type="submit">Publish Note Entry</button>
+    </div>
+
+</form>
+
+<%- include("partials/footer") %>
